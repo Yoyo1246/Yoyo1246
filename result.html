@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Page</title>
+    <style>
+        table {
+            width: 50%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .total {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #008CBA; /* Blue color */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Headline Section -->
+    <h1>Result Table</h1>
+    
+    <!-- Table Section -->
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Bangla</td>
+            <td>160</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>157</td>
+        </tr>
+        <tr>
+            <td>Physics 2nd</td>
+            <td>61</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>66</td>
+        </tr>
+        <tr class="total">
+            <td>Total</td>
+            <td>444</td>
+        </tr>
+    </table>
+
+    <!-- Back Button -->
+    <button class="back-button" onclick="window.history.back();">Back</button>
+
+    <footer>
+        <p>Generated with HTML</p>
+    </footer>
+</body>
+</html>
